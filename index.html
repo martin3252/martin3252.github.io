@@ -6,7 +6,7 @@
   <meta name="description" content="Martin's work in applied AI and automation. Explore How2Talk, Brisbane Tradies, research, and a granted patent.">
   <title>Martin — Applied AI & Automation</title>
   <link rel="preload" href="./assets/fonts/source-sans-3-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="./assets/style.css?v=canvas-1">
+  <link rel="stylesheet" href="./assets/style.css?v=profile-2">
   <script defer src="./assets/app.js?v=canvas-1"></script>
 </head>
 <body>
@@ -35,6 +35,8 @@
         <h1 id="profile-title">Martin</h1>
         <p class="profile-role">Applied AI &amp; automation</p>
         <p class="profile-intro">I’m an AI engineer with 5+ years of experience delivering LLM and speech solutions, from concept to production.<br>I enjoy solving business problems and turning ideas into AI solutions.</p>
+        <div class="profile-actions"><a href="mailto:aixbuilderxmch@gmail.com">Email me</a><a href="#projects">View projects</a></div>
+        <div class="profile-evidence" aria-label="Research credentials"><a href="https://www.isca-archive.org/interspeech_2018/su18_interspeech.html" target="_blank" rel="noopener noreferrer">Interspeech 2018 · Co-author</a><a href="https://patentimages.storage.googleapis.com/03/bf/24/b783ae29bf0ed5/CN112786023B.pdf" target="_blank" rel="noopener noreferrer">Granted patent · Co-inventor</a></div>
       </div>
       <aside class="expertise" aria-labelledby="expertise-title">
         <h2 id="expertise-title">Expertise</h2>
@@ -51,7 +53,8 @@
         <div class="product-copy">
           <h3 id="how2talk-title">How2Talk</h3>
           <p class="product-subtitle">Workplace communication and resume review</p>
-          <p>I built a full-stack application for workplace communication practice and resume review, with Google sign-in, an admin dashboard, and user management. The implementation includes idempotent database operations and race-condition handling. Scenario cards pair a tone-deaf reply with a more thoughtful alternative.</p>
+          <p>Practice difficult workplace conversations with scenario cards that pair a tone-deaf reply with a more thoughtful alternative, and review your resume.</p>
+          <p class="project-contribution"><strong>My implementation</strong> Full-stack development with Google sign-in, an admin dashboard, user management, idempotent database operations, and race-condition handling.</p>
           <a class="text-link" href="https://how2talk.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visit How2Talk (opens in a new tab)">Visit website <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a>
         </div>
       </article>
@@ -62,10 +65,21 @@
         <div class="product-copy">
           <h3 id="tradies-title">Brisbane Tradies</h3>
           <p class="product-subtitle">Search and shortlist local businesses</p>
-          <p>I used web scraping to collect local business information and built a searchable directory for Brisbane. Users can search by name or suburb, filter by trade and distance, compare ratings and reviews, and shortlist businesses to contact.</p>
+          <p>Find local businesses in Brisbane, compare ratings and reviews, and build a shortlist. Search by name or suburb and filter by trade and distance.</p>
+          <p class="project-contribution"><strong>My implementation</strong> Collected local business information through web scraping and built a searchable directory.</p>
           <a class="text-link" href="https://usefulinformation.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visit Brisbane Tradies (opens in a new tab)">Visit website <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a>
         </div>
       </article>
+    </section>
+
+    <section class="experience-section" aria-labelledby="experience-title">
+      <div class="section-heading"><h2 id="experience-title">Experience</h2><span aria-hidden="true"></span></div>
+      <p class="experience-intro">Beyond these personal projects, my professional work spans enterprise AI applications, automation, and production deployment.</p>
+      <dl class="experience-list">
+        <div><dt>Agentic AI &amp; RAG</dt><dd>Built enterprise knowledge tools and search agents using agentic workflows, graph retrieval, and vector search.</dd></div>
+        <div><dt>Document automation</dt><dd>Automated OCR-based document review and report generation for compliance workflows.</dd></div>
+        <div><dt>Speech AI &amp; deployment</dt><dd>Led development of batch and streaming Mandarin TTS services, optimised inference, and deployed containerised systems for enterprise clients.</dd></div>
+      </dl>
     </section>
 
     <section id="research" class="research-section" aria-labelledby="research-title">
