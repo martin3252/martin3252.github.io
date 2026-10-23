@@ -29,11 +29,6 @@ svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.6;stroke
 .profile-copy h1{font-size:2.125rem}
 .profile-role{font-size:1.75rem;color:var(--muted);font-weight:600;line-height:1.4;margin-top:2px}
 .profile-intro{max-width:74ch;margin-top:16px;font-size:1.1875rem;line-height:1.55}
-.profile-actions,.profile-evidence{display:flex;flex-wrap:wrap;column-gap:24px;align-items:center}
-.profile-actions{margin-top:12px;font-size:1rem;font-weight:600}
-.profile-evidence{margin-top:4px;font-size:.9375rem;column-gap:20px}
-.profile-actions a,.profile-evidence a{display:inline-flex;align-items:center;min-height:44px}
-.profile-evidence a{color:var(--muted)}
 .expertise{border-left:1px solid var(--line);padding-left:64px}
 .expertise h2{font-size:1.125rem;letter-spacing:-.015em;margin-bottom:14px}
 .expertise ul{list-style:none;display:flex;flex-wrap:wrap;gap:10px;margin:0;padding:0}
