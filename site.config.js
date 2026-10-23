@@ -1,18 +1,17 @@
-/* 只需修改這裡即可替換個人資料與作品。使用相對路徑，例如 ./demos/example.html。
-   githubUsername 留空時不顯示 GitHub 入口；不要放入尚不存在的網址。
-   previewUrl/sourceUrl 可填本地相對路徑或完整 https 網址；留空即顯示未提供。
-   自己的作品請將 isDemo 設為 false；不要把示範內容當成真實經歷。 */
+/* Edit this file to update your profile and projects.
+   Use relative paths for local demos or full HTTPS URLs for external projects.
+   Leave sourceUrl empty to hide the source link. */
 window.SITE_CONFIG = {
   name: "martin3252",
   githubUsername: "martin3252",
-  intro: "從職場溝通到在地資訊，這裡收集我的網站作品與小型互動實驗。選一個作品，直接玩玩看。",
-  bio: "這裡展示 How2Talk 與 Brisbane Tradies：一個探索職場中的說話方式，一個整理布里斯本的商家資訊。也保留幾個可直接操作的小型示範，讓想法有個可以體驗的入口。",
+  intro: "From workplace communication to local information, this is a collection of my web projects and small interactive experiments. Pick one and give it a try.",
+  bio: "How2Talk explores better ways to communicate at work. Brisbane Tradies helps you find businesses around Brisbane. Alongside them are a few small, hands-on demos built to turn ideas into something you can try.",
   profileIsPlaceholder: false,
   projects: [
-    { id: "how2talk", title: "How2Talk｜職場溝通", subtitle: "WORDS THAT WORK", description: "用情境卡片對照地雷回答與圓融回答，理解職場對話的關鍵。支援情境搜尋，並依主管、同事、下屬、客戶與面試官篩選。", tags: ["實際作品", "職場溝通", "情境卡片"], previewUrl: "https://how2talk.vercel.app/", sourceUrl: "", isDemo: false, visual: "talk", featured: true },
-    { id: "tradies", title: "Brisbane Tradies", subtitle: "FIND. FILTER. SHORTLIST.", description: "整理布里斯本周邊商家資訊，依工種、關鍵字與距離查找，查看評分與評論數，並將商家加入候選清單，方便比較及聯絡。", tags: ["實際作品", "在地資訊", "搜尋篩選"], previewUrl: "https://usefulinformation.vercel.app/", sourceUrl: "", isDemo: false, visual: "directory", featured: true },
-    { id: "palette", title: "配色實驗室", subtitle: "COLOR PLAYGROUND", description: "轉動色相，找出下一個介面的靈感。即時產生一組色票，並複製 CSS 變數。", tags: ["設計工具", "JavaScript"], previewUrl: "./demos/palette.html", sourceUrl: "./demos/demo.js", isDemo: true, visual: "palette" },
-    { id: "focus", title: "留一點時間，專注", subtitle: "FOCUS TIMER", description: "給自己一段不被打擾的時間。可調整分鐘數，開始、暫停，再重新出發。", tags: ["效率工具", "JavaScript"], previewUrl: "./demos/focus.html", sourceUrl: "./demos/demo.js", isDemo: true, visual: "focus" },
-    { id: "tasks", title: "口袋清單", subtitle: "TINY TASKS", description: "把腦中的小事放下來。新增待辦、勾選完成，讓下一步變得清楚一點。", tags: ["效率工具", "介面實驗"], previewUrl: "./demos/tasks.html", sourceUrl: "./demos/demo.js", isDemo: true, visual: "tasks" }
+    { id: "how2talk", title: "How2Talk", subtitle: "WORDS THAT WORK", description: "Explore workplace scenarios through examples of what to avoid and how to respond thoughtfully. Search situations and filter by managers, colleagues, direct reports, clients, or interviewers.", tags: ["Live project", "Communication", "Scenario cards"], previewUrl: "https://how2talk.vercel.app/", sourceUrl: "", isDemo: false, visual: "talk", featured: true },
+    { id: "tradies", title: "Brisbane Tradies", subtitle: "FIND. FILTER. SHORTLIST.", description: "Find businesses around Brisbane by trade, keyword, and distance. Compare ratings and review counts, then save candidates to a shortlist.", tags: ["Live project", "Local information", "Search & filters"], previewUrl: "https://usefulinformation.vercel.app/", sourceUrl: "", isDemo: false, visual: "directory", featured: true },
+    { id: "palette", title: "Color Playground", subtitle: "COLOR PLAYGROUND", description: "Find inspiration for your next interface. Adjust the hue, generate a palette, and copy the CSS variables.", tags: ["Design tools", "JavaScript"], previewUrl: "./demos/palette.html", sourceUrl: "./demos/demo.js", isDemo: true, visual: "palette" },
+    { id: "focus", title: "Focus Timer", subtitle: "FOCUS TIMER", description: "Make room for uninterrupted work. Set your session length, start, pause, and begin again.", tags: ["Productivity", "JavaScript"], previewUrl: "./demos/focus.html", sourceUrl: "./demos/demo.js", isDemo: true, visual: "focus" },
+    { id: "tasks", title: "Tiny Tasks", subtitle: "TINY TASKS", description: "Get small tasks out of your head. Add a to-do, mark it complete, and make your next step a little clearer.", tags: ["Productivity", "Interface experiments"], previewUrl: "./demos/tasks.html", sourceUrl: "./demos/demo.js", isDemo: true, visual: "tasks" }
   ]
 };
